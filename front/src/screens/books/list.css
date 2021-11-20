@@ -1,0 +1,13 @@
+.liste{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin:  auto;
+    flex-wrap: wrap;
+
+}
+.liste>*{
+margin-top: 50px;
+
+}

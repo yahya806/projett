@@ -1,0 +1,27 @@
+
+.bodd{
+  background-color: black;
+}
+
+.addInput{
+
+background-color: #16151a;
+padding: 1.2em;
+width: 100%;
+    
+  }
+
+  .addInput>*{
+    width: 100%;
+  }
+  .titleadd{
+padding-top: 5%;
+height: 100%;
+  }
+  .boxes{
+    display: flex;
+    -ms-flex-direction: column;
+    
+  }
+
+  

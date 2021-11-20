@@ -1,0 +1,8 @@
+.alkteb{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-text{
+    color: white !important;
+}

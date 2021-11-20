@@ -1,0 +1,110 @@
+.kolchay{
+    padding-top: 70px;
+    /* background-color: #16151a; */
+    background-color: black;
+   
+   
+}
+.te7tkolchay{
+    border-radius: 35px;
+    background-color: #16151a;
+}
+.community{
+    border-radius: 30px;
+    background-color: #16151a;
+}
+ul.socialIcons {
+    padding: 0;
+    text-align: center;
+    
+  }
+  
+  .socialIcons li {
+    background-color: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 2em;
+    overflow: hidden;
+  }
+  
+  .socialIcons li a {
+    display: block;
+    padding: 0.5em;
+    min-width: 1.28571429em;
+    max-width: 1.28571429em;
+    height: 1.28571429em;
+    white-space: nowrap;
+    line-height: 1.5em; /*it's working only when you write text with icon*/
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+  }
+  
+  .socialIcons li i {
+    margin-right: 0.5em;
+  }
+  
+  .socialIcons li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+  }
+  
+  .socialIcons .facebook {
+    background-color: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+  }
+  
+  .socialIcons .twitter {
+    background-color: #00aced;
+    box-shadow: 0 0 16px #00aced;
+  }
+  
+  .socialIcons .instagram {
+    background-color: #cd486b;
+    box-shadow: 0 0 16px #cd486b;
+  }
+  
+  
+  .information{
+      padding-top: 10px;
+      display: flex;
+      flex-direction: row;
+  }
+  .sociale{
+      padding-top: 70px;
+      flex: 1;
+      align-content: flex-start;
+  }
+  .elmap{
+      flex: 1;
+      border-radius: 10px 100px / 120px;
+  }
+
+
+  .userCard{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 8px;
+  }
+
+
+  .userCard img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .showuser{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .showuser>*{
+   margin-top: 50px;
+  }
